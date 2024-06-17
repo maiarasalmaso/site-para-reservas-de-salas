@@ -25,6 +25,6 @@ O sistema de reserva de horário foi feito com a **Reserva de horários do Googl
 ![Horários](https://github.com/maiarasalmaso/Room-management-/assets/91421583/56b4cf29-c7b2-433c-9b9a-7b28cec8cca6)
 
 
-Ao escolher o horário, o terapeuta deve preencher um formulárop que será utilizado para "coletar" as respostas em uma planilha do Google Sheets feita em Java.
+Ao escolher o horário, o terapeuta deve preencher um formulárop que será utilizado para "coletar" as respostas em uma [planilha](https://github.com/maiarasalmaso/calendar-to-google-sheets) do Google Sheets feita em JavaScript.
 
 ![Formulário](https://github.com/maiarasalmaso/Room-management-/assets/91421583/f457cb88-8570-4681-b368-374612f82104)
