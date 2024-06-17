@@ -1,0 +1,12 @@
+            - name: HTML/CSS/JS Minifier
+  # You may pin to the exact commit or the version.
+  # uses: devatherock/minify-js@c4f40af50c45f8727c1a404d65f8dac342247b81
+  uses: devatherock/minify-js@v3.1.0
+  with:
+    # File to minify or a folder containing files to minify. By default, all files in current folder and its subfolders will be minified
+    directory: # optional
+    # Path where the minified files will be saved. By default, the minified files will be saved in the original file path
+    output: # optional
+    # Indicates if the output files should have the suffix '.min' added after the name. Default is true
+    add_suffix: # optional
+          
