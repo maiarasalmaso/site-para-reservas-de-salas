@@ -1,2 +1,2 @@
 # Room-management-
-Um sistema de rerva para uma escola de Yoga e Meditação.
+A herbal system for a Yoga and Meditation school.
