@@ -1,0 +1,185 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva - RamDas</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+            color: #0055A6;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #8b308c;
+            color: #333;
+            padding: 10px 0;
+            text-align: center;
+            flex: 0 0 auto;
+        }
+
+        header img {
+            max-width: 80px;
+            height: auto;
+            margin-top: 5px;
+        }
+
+        footer {
+            background-color: #F1E8F1;
+            color: #333;
+            padding: 10px 0;
+            text-align: center;
+            flex: 0 0 auto;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            text-align: left;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .button-container {
+            margin-top: 0;
+        }
+
+        .button-container a {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #8b308c;
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 0px;
+            width: 200px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+==
+        }
+
+        .ativo {
+            opacity: 1 !important;
+            pointer-events: auto !important;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .top-section,
+        .bottom-section {
+            background-color: #FFF;
+            text-align: center;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .pix-container {
+            text-align: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer img {
+            max-width: 80px;
+            height: auto;
+            margin-top: 5px;
+        }
+
+        .address,
+        .city {
+            font-size: 10px;
+        }
+
+        /* Estilo para deixar as linhas da tabela brancas */
+        table {
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img alt="Logo RamDas" src="ramdas_logo.png" style="float: right; height: 40px; width: 44px;" />
+    </header>
+
+    <div class="content">
+        <div class="container">
+            <section class="bottom-section">
+                <div class="pix-container">
+                    <p><span style="color:#000000;">Fa&ccedil;a o pagamento utilizando o QR Code correspondente e envie o comprovante.</span></p>
+                    <p><span style="color:#000000;">Ap&oacute;s isso, o bot&atilde;o para ser redirecionado ao sistema ser&aacute; liberado.</span></p>
+                    <p></p>
+                    <p><span style="color:#8b308c;"><strong>Para apenas uma reserva!</strong></span></p>
+                    <p><img alt="" src="qrcode.png" style="width: 150px; height: 150px;" /></p>
+                    <p><span style="color:#8b308c;"><strong>Para mais de uma reserva, insira o valor equivalente </strong></span></p>
+                    <p><strong><img alt="" src="download (4).png" style="width: 150px; height: 150px;" /></strong></p>  
+                    <!- Insira o calendário compartilhadoo de sua empresa ->  
+                    <div class="button-container"><a href="**" id="reserva-btn" class="hidden">Agenda Geral</a></div>
+                    <div class="button-container"><a href="reserva.html" id="reserva-btn" class="hidden">V&aacute; para o sistema de reserva</a></div>
+                    <!- Em ** insira o número do whatspp que irá receber o comprovante de pagamento ->
+                    <div class="button-container"><a href="https://wa.me/**?text=Olá,%20gostaria%20de%20fazer%20um%20pagamento%20referente%20à%20reserva." id="comprovante-btn" target="_blank">Envie o Comprovante de pagamento</a></div>
+
+                    <div class="button-container"></div>
+                    <p></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <img alt="Logo Ramdas" src="ramdas_logo.png" style="float: left; height: 40px; width: 44px;" />
+        <p class="address" style="text-align: left;"><strong><span style="font-size:12px;color:#8b308c;">Rua Heinz Persuhn, 129</span></strong></p>
+        <p class="city" style="text-align: left;"><span style="font-size:12px;color:#8b308c;">Londrina/PR</span></p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var comprovanteBtn = document.getElementById("comprovante-btn");
+            var reservaBtn = document.getElementById("reserva-btn");
+
+            comprovanteBtn.addEventListener("click", function () {
+                reservaBtn.classList.remove("hidden");
+            });
+
+                }
+            });
+        });
+    </script>
+</body>
+</html>
