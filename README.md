@@ -28,3 +28,7 @@ O sistema de reserva de horário foi feito com a **Reserva de horários do Googl
 Ao escolher o horário, o terapeuta deve preencher um formulárop que será utilizado para "coletar" as respostas em uma [planilha](https://github.com/maiarasalmaso/calendar-to-google-sheets) do Google Sheets feita em JavaScript.
 
 ![Formulário](https://github.com/maiarasalmaso/Room-management-/assets/91421583/f457cb88-8570-4681-b368-374612f82104)
+
+#como baixar e usar o sistema?
+
+Basta fazer o download da pasta em um computador, e abrir o arquivo index.hmtl
